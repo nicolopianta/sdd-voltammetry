@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and the archived software release."
+title: "cv-deconvolution: Semi-Derivative Decomposition of faradaic and capacitive currents in voltammetry"
+version: 1.0.0
+date-released: 2026-09-09
+license: MIT
+repository-code: "https://github.com/<your-github-username>/sdd-voltammetry"
+authors:
+  - family-names: Pianta
+    given-names: Nicolo
+    affiliation: "Department of Materials Science, University of Milano-Bicocca"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Spotti
+    given-names: Matteo
+    affiliation: "Department of Materials Science, University of Milano-Bicocca"
+  - family-names: "La Mantia"
+    given-names: Fabio
+    affiliation: "Universitat Bremen; Fraunhofer IFAM, Bremen"
+  - family-names: "Di Liberto"
+    given-names: Giovanni
+    affiliation: "Department of Materials Science, University of Milano-Bicocca"
+    email: giovanni.diliberto@unimib.it
+  - family-names: Ruffo
+    given-names: Riccardo
+    affiliation: "Department of Materials Science, University of Milano-Bicocca"
+preferred-citation:
+  type: article
+  title: "Separation of Faradaic and Capacitive Currents in Voltammetry through Semi-Derivative Decomposition"
+  authors:
+    - family-names: Pianta
+      given-names: Nicolo
+    - family-names: Spotti
+      given-names: Matteo
+    - family-names: "La Mantia"
+      given-names: Fabio
+    - family-names: "Di Liberto"
+      given-names: Giovanni
+    - family-names: Ruffo
+      given-names: Riccardo
+  year: 2026
+  # journal: ""
+  # doi: ""

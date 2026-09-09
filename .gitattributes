@@ -1,0 +1,15 @@
+# Normalise line endings for text; keep the measured data byte-for-byte.
+* text=auto eol=lf
+
+*.py     text eol=lf
+*.md     text eol=lf
+*.toml   text eol=lf
+*.yml    text eol=lf
+*.cff    text eol=lf
+*.json   text eol=lf
+
+# Ivium instrument files: leave exactly as recorded
+data/**  -text
+*.ocw    -text
+*.icw    -text
+*.ici    -text

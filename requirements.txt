@@ -1,0 +1,6 @@
+# Exact versions used to produce the figures in the paper.
+# For a looser install use `pip install -e .` (see pyproject.toml).
+numpy==2.5.1
+scipy==1.18.0
+lmfit==1.3.4
+matplotlib==3.11.0

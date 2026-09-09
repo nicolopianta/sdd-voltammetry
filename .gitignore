@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated outputs (regenerable from the example scripts)
+out/
+*.npy
+*.npz
+
+# Origin project files and vector art (journal figure production, not code)
+*.opju
+*.svg
+
+# Large / cached figure rasters
+examples/**/*.png
+!examples/**/expected/*.png

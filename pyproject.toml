@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv-deconvolution"
+version = "1.0.0"
+description = "Semi-Derivative Decomposition (SDD) and Dunn separation of faradaic and capacitive currents in voltammetry"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Nicolo Pianta" },
+    { name = "Matteo Spotti" },
+    { name = "Fabio La Mantia" },
+    { name = "Giovanni Di Liberto", email = "giovanni.diliberto@unimib.it" },
+    { name = "Riccardo Ruffo" },
+]
+keywords = ["voltammetry", "cyclic voltammetry", "semi-derivative", "fractional calculus",
+            "pseudocapacitance", "current decomposition", "electrochemistry"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "lmfit>=1.2",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Repository = "https://github.com/<your-github-username>/sdd-voltammetry"
+Paper = "https://doi.org/<article-DOI-when-available>"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::scipy.optimize.OptimizeWarning"]

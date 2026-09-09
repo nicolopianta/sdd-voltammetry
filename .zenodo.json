@@ -1,0 +1,25 @@
+{
+  "title": "cv-deconvolution: code and data for \"Separation of Faradaic and Capacitive Currents in Voltammetry through Semi-Derivative Decomposition\"",
+  "description": "Python implementation of the Semi-Derivative Decomposition (SDD) and Dunn methods for separating faradaic and capacitive currents in linear-sweep voltammetry, together with runnable example scripts that reproduce each figure of the paper on simulated data and the experimental ferri-/ferrocyanide dataset.",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "voltammetry", "cyclic voltammetry", "semi-derivative", "fractional calculus",
+    "pseudocapacitance", "current decomposition", "electrochemistry"
+  ],
+  "creators": [
+    { "name": "Pianta, Nicolo", "affiliation": "University of Milano-Bicocca" },
+    { "name": "Spotti, Matteo", "affiliation": "University of Milano-Bicocca" },
+    { "name": "La Mantia, Fabio", "affiliation": "Universitat Bremen; Fraunhofer IFAM" },
+    { "name": "Di Liberto, Giovanni", "affiliation": "University of Milano-Bicocca" },
+    { "name": "Ruffo, Riccardo", "affiliation": "University of Milano-Bicocca" }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://doi.org/<article-DOI-when-available>",
+      "scheme": "doi"
+    }
+  ]
+}
